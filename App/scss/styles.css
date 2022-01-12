@@ -1,0 +1,194 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d192b;
+  font-size: 1.125rem;
+  font-family: "Outfit", sans-serif;
+  color: #8bacda;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nft {
+  height: 35.8125rem;
+  width: 26.125rem;
+  background-color: #0b1a2e;
+  margin: 5rem 0 1.25rem 0;
+  border-radius: 1.25rem;
+}
+
+.nft-card {
+  height: 34.875rem;
+  width: 20.9375rem;
+  background-color: white;
+  margin: 1.4375rem;
+  overflow: hidden;
+  background-color: #14253d;
+  border-radius: 1.25rem;
+  padding: 1.3125rem;
+}
+
+.nft-image {
+  position: relative;
+  background-image: url("../images/image-equilibrium.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 18.4375rem;
+  width: 100%;
+  border-radius: 0.625rem;
+  margin-bottom: 1.125rem;
+}
+
+.nft-image-hover {
+  opacity: 0;
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  background-color: rgba(35, 194, 206, 0.6);
+  border-radius: 0.625rem;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+.nft-image:hover .nft-image-hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.nft-text {
+  height: 12.5625rem;
+  width: 100%;
+}
+
+.nft-title {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.nft-title:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.nft-description {
+  margin-bottom: 1.25rem;
+}
+
+.nft-price-time {
+  margin-bottom: 1.125rem;
+}
+
+.nft-price {
+  font-weight: 600;
+  color: #00fff7;
+}
+
+.nft-ether {
+  margin-left: 0.3125rem;
+}
+
+.nft-time {
+  font-weight: 600;
+}
+
+.nft-clock {
+  margin-left: 0.4375rem;
+}
+
+.nft-horizontal-line {
+  height: 0.125rem;
+  width: 100%;
+  background-color: #2f415b;
+  margin-bottom: 1.125rem;
+}
+
+.nft-nft-user {
+  margin-bottom: 1.8125rem;
+}
+
+.nft-profile {
+  height: 1.9375rem;
+  width: 2.125rem;
+  border-radius: 6.25rem;
+  border: 0.0625rem solid white;
+  margin-right: 0.8125rem;
+}
+
+.nft-profile > img {
+  height: 1.875rem;
+  width: 1.9375rem;
+}
+
+.nft-profile-text {
+  font-size: 0.9375rem;
+}
+
+.nft-profile-text-first {
+  margin-right: 0.1875rem;
+}
+
+.nft-profile-text-second {
+  font-weight: 600;
+  color: white;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.nft-profile-text-second:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
