@@ -62,14 +62,14 @@ body {
   height: 37.8125rem;
   width: 26.125rem;
   background-color: #0c192a;
-  margin: 4rem 0 1rem 0;
+  margin: 4rem 0 0.5rem 0;
   border-radius: 1.25rem;
 }
 
 .nft-card {
   z-index: 2;
   position: relative;
-  height: 33.875rem;
+  height: 34.875rem;
   width: 20.9375rem;
   background-color: white;
   margin: 1.4375rem;
@@ -83,7 +83,7 @@ body {
   z-index: 1;
   position: absolute;
   top: 105px;
-  height: 33.875rem;
+  height: 34.875rem;
   width: 22.757rem;
   background-color: #031729;
   border-radius: 1.25rem;
