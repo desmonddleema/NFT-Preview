@@ -1,12 +1,14 @@
 .nft {
-  height: 35.8125rem;
+  height: 37.8125rem;
   width: 26.125rem;
-  background-color: rgb(11, 26, 46);
-  margin: 5rem 0 1.25rem 0;
+  background-color: rgb(12, 25, 42);
+  margin: 4rem 0 1rem 0;
   border-radius: 1.25rem;
 
   &-card {
-    height: 34.875rem;
+    z-index: 2;
+    position: relative;
+    height: 33.875rem;
     width: 20.9375rem;
     background-color: $white;
     margin: 1.4375rem;
@@ -14,6 +16,17 @@
     background-color: $darkBlue;
     border-radius: 1.25rem;
     padding: 1.3125rem;
+  }
+
+  &-card-absolute {
+    z-index: 1;
+    position: absolute;
+    top: 105px;
+    height: 33.875rem;
+    width: 22.757rem;
+    background-color: rgb(3, 23, 41);
+    border-radius: 1.25rem;
+    overflow: none;
   }
 
   &-image {

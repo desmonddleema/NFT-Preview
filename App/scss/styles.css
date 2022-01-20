@@ -59,15 +59,17 @@ body {
 }
 
 .nft {
-  height: 35.8125rem;
+  height: 37.8125rem;
   width: 26.125rem;
-  background-color: #0b1a2e;
-  margin: 5rem 0 1.25rem 0;
+  background-color: #0c192a;
+  margin: 4rem 0 1rem 0;
   border-radius: 1.25rem;
 }
 
 .nft-card {
-  height: 34.875rem;
+  z-index: 2;
+  position: relative;
+  height: 33.875rem;
   width: 20.9375rem;
   background-color: white;
   margin: 1.4375rem;
@@ -75,6 +77,17 @@ body {
   background-color: #14253d;
   border-radius: 1.25rem;
   padding: 1.3125rem;
+}
+
+.nft-card-absolute {
+  z-index: 1;
+  position: absolute;
+  top: 105px;
+  height: 33.875rem;
+  width: 22.757rem;
+  background-color: #031729;
+  border-radius: 1.25rem;
+  overflow: none;
 }
 
 .nft-image {
